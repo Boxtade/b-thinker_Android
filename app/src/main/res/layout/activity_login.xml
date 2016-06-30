@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/b_thinker"
+    tools:context=".LoginActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingTop="15dp"
+        android:background="@color/black"
+        android:src="@drawable/title_s" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:id="@+id/email"
+        android:hint="example@mail.com"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="******"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/loginbtn"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Login"/>
+    <LinearLayout
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/register"
+            android:background="@drawable/btn_back_blue"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="Register"/>
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:id="@+id/forgotpass"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/btn_back_red"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="Forgot Password"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
