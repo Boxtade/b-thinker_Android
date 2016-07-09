@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/linearLayoutTasksView"
+    tools:context=".ActivityMain">
+
+
+    <GridView
+        android:id="@+id/grid"
+        android:scrollbars="none"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="200dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:choiceMode="singleChoice"
+        android:clickable="false"
+        android:verticalSpacing="15dp"
+        android:scaleType="centerCrop"
+        android:horizontalSpacing="15dp"
+        android:forceHasOverlappingRendering="false">
+
+    </GridView>
+
+            <!--<Button-->
+                <!--android:layout_width="158dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:id="@+id/chgbtn"-->
+                <!--android:background="@drawable/btn_back"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textAlignment="center"-->
+                <!--android:text="Change Password"-->
+                <!--android:layout_weight="0.04" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="158dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="10px"-->
+                <!--android:layout_marginBottom="30dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:id="@+id/logout"-->
+                <!--android:background="@drawable/btn_back_blue"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textAlignment="center"-->
+                <!--android:text="Logout"-->
+                <!--android:layout_weight="0.04" />-->
+
+
+</LinearLayout>

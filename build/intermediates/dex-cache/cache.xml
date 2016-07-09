@@ -2,60 +2,11 @@
 <items version="2" >
 
     <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="69ddd1779e9788ea4fefac737739ae86e62d1ef5">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f6207f5d549bc361d0dff30ed564e773b02b8877\classes.dex" />
-    </item>
-    <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_73ce720dbccd623243e8d0b5830505594543c085\classes.dex" />
-    </item>
-    <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_ba6f60316c8aceb0b8b3e1a903ba2c15696f9034\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\kvins\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_b656923dafd2738c4cdc2ab5304e8e6230afd9e5\classes.dex" />
-    </item>
-    <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_3b55ab4c17d5a58704ced8c3846d6ea5e215d86c\classes.dex" />
-    </item>
-    <item
         jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="ca81b5b1dfde7101583e462ad9596ea502348903">
+        sha1="8bae5532c68ec8d44a8e9d830b97b2346663f13e">
         <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_23ed98a493d11e8c3785a66a5afcddc621348630\classes.dex" />
-    </item>
-    <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4b22126cba41dcbcd6a258073d9f7f8a98b75137\classes.dex" />
-    </item>
-    <item
-        jar="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\Dropbox\Boxtade\b-thinker_Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_6518906ffce27200654b753e08b3abca1d01dd0c\classes.dex" />
     </item>
 
 </items>

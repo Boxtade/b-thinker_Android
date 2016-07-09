@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="thinker" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/b_green</item>
+        <item name="colorPrimaryDark">@color/b_black</item>
+        <item name="colorAccent">@color/b_green</item>
+        <item name="android:colorForeground">@color/b_blackIntense</item>
+        <item name="android:textColorPrimary">@color/b_black</item>
+        <item name="android:windowBackground">@color/b_white</item>
+        <item name="android:colorBackground">@color/b_white</item>
+        <item name="android:textColorSecondary">@color/b_black</item>
+        <item name="android:textColorSecondaryInverse">@color/b_white</item>
+        <item name="android:textColorPrimaryInverse">@color/b_primary_text</item>
+    </style>
+
+</resources>

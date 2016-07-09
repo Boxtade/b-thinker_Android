@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.boxtade.b_thinker" >
+    package="com.boxtade.b_thinker">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo_bthinker"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/b_thinker">
-        <activity android:name="com.boxtade.b_thinker.LoginActivity">
+        android:supportsRtl="true">
+        <activity
+            android:name=".ActivityLogin"
+            android:theme="@style/thinker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.boxtade.b_thinker.ProfileActivity"/>
-        <activity android:name="com.boxtade.b_thinker.RegisterActivity"/>
-
+        <activity
+            android:name=".ActivityMain"
+            android:theme="@style/thinker" />
+        <activity
+            android:name=".ActivityRegister"
+            android:theme="@style/thinker" />
     </application>
 
 </manifest>

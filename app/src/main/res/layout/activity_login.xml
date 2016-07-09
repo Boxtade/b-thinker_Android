@@ -4,22 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/b_thinker"
-    tools:context=".LoginActivity" >
+    tools:context=".ActivityLogin" >
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
         android:paddingTop="15dp"
-        android:background="@color/black"
-        android:src="@drawable/title_s" />
+        android:layout_gravity="left"
+        android:background="@color/b_black"
+        android:src="@drawable/title" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginTop="30px"
+        android:textColor="@color/b_black"
         android:id="@+id/email"
         android:hint="example@mail.com"/>
 
@@ -28,6 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="80dp"
         android:layout_gravity="center"
+        android:textColor="@color/b_black"
         android:inputType="textPassword"
         android:hint="******"/>
 
@@ -38,7 +40,7 @@
         android:id="@+id/loginbtn"
         android:layout_marginTop="30dp"
         android:background="@drawable/btn_back"
-        android:textColor="@color/black"
+        android:textColor="@color/b_black"
         android:textAlignment="center"
         android:text="Login"/>
     <LinearLayout
